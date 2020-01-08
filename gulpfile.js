@@ -43,7 +43,7 @@ gulp.task('watch', function(){
 gulp.task('serve', function(done) {
 
     browserSync.init({
-        server: "./site1"
+        server: "./"
     });
 
     gulp.watch("./SCSS/**/*.scss", gulp.series('sass'));
