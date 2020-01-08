@@ -95,7 +95,7 @@
   left:60%;
   animation-name:orbit;
   animation-iteration-count: infinite;
-  animation-duration: 8s;
+  animation-duration: 12s;
   animation-timing-function: ease-in;
 }
 
@@ -108,7 +108,7 @@
   left:30%;
   animation-name:orbit;
   animation-iteration-count: infinite;
-  animation-duration: 8s;
+  animation-duration: 12s;
   animation-timing-function: ease-in;
 }
 
@@ -132,14 +132,14 @@
   }
 
   0% {
-    transform: rotate(0deg) translateX(200px) rotate(0deg);
+    transform: rotate(0deg) translateX(180px) rotate(0deg);
     opacity:0.3;
   }
   50% {
     opacity:0.5;
   }
   to   {
-    transform: rotate(360deg) translateX(200px) rotate(-360deg);
+    transform: rotate(360deg) translateX(180px) rotate(-360deg);
     opacity:1;
   }
 }
@@ -197,7 +197,7 @@ opacity:0.3;
   }
   100% {
 
-    transform: translateY(80vh);
+    transform: translateY(70vh);
 
   }
 }
@@ -210,7 +210,7 @@ opacity:0.3;
   }
   100% {
 
-    transform: translateY(80vh);
+    transform: translateY(70vh);
 
   }
 }
@@ -222,7 +222,7 @@ opacity:0.3;
   }
   100% {
 
-    transform: translateY(70vh) translateX(70vh);
+    transform: translateY(70vh) translateX(100vh);
     opacity:0;
   }
 }
