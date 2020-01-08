@@ -1,0 +1,205 @@
+.dott {
+  width:3px;
+  height:3px;
+  background-color:white;
+  position:absolute;
+  top:10%;
+  animation-name:nem;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+}
+
+.dott1 {
+  position:absolute;
+  bottom:10%;
+  width:3px;
+  height:3px;
+  background-color:white;
+  margin:0;
+  animation-name:nem;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+}
+
+.dott2 {
+  position:absolute;
+  left:30%;
+  width:2px;
+  height:2px;
+  background-color:white;
+  margin:0;
+  animation-name:slide-br;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-timing-function: cubic-bezier(0.88, 1.06, 0.35, 0.92);
+}
+
+.dott3 {
+  position:absolute;
+  right:46%;
+  width:3px;
+  height:3px;
+  background-color:white;
+  margin:0;
+  animation-name:nem-down;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-timing-function: cubic-bezier(0.88, 1.06, 0.35, 0.92);
+}
+
+.dott4 {
+  width:3px;
+  height:3px;
+  background-color:white;
+  position:absolute;
+  top:25%;
+  right:5%;
+  animation-name:slide-left;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+}
+
+.dott5 {
+  width:3px;
+  height:3px;
+  background-color:white;
+  position:absolute;
+  bottom:25%;
+  right:5%;
+  animation-name:slide-left;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+}
+
+.dott6 {
+  width:3px;
+  height:3px;
+  background-color:white;
+  position:absolute;
+  top:0;
+  right:0;
+  animation-name:slide-bl;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+}
+
+.dott6 {
+  width:3px;
+  height:3px;
+  background-color:white;
+  position:absolute;
+  top:50%;
+  left:60%;
+  animation-name:orbit;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-timing-function: ease-in;
+}
+
+.dott7 {
+  width:3px;
+  height:3px;
+  background-color:white;
+  position:absolute;
+  top:50%;
+  left:30%;
+  animation-name:orbit;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-timing-function: ease-in;
+}
+
+
+
+@keyframes orbit {
+  2% {
+    opacity:0;
+  }
+
+  0% {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+    opacity:0.3;
+  }
+  50% {
+    opacity:0.5;
+  }
+  to   {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    opacity:1;
+  }
+}
+
+
+
+@keyframes slide-bl {
+  0% {
+opacity:0.3;
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+
+    transform: translateY(100vh) translateX(-100vh);
+    opacity:0.9;
+  }
+}
+
+
+
+
+@keyframes slide-left {
+  0% {
+
+    transform: translateX(0);
+    opacity:0.2;
+  }
+  100% {
+
+    transform: translateX(-130vh);
+    opacity:0.8;
+  }
+}
+
+
+
+
+
+@keyframes nem{
+  0% {
+
+    transform: translateX(0);
+  }
+  100% {
+
+    transform: translateX(100vh);
+    opacity:0;
+  }
+}
+@keyframes nem-down{
+  0% {
+
+    transform: translateY(0);
+    opacity:0.5;
+  }
+  100% {
+
+    transform: translateY(100vh);
+
+  }
+}
+
+@keyframes slide-br {
+  0% {
+
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+
+    transform: translateY(100vh) translateX(100vh);
+    opacity:0;
+  }
+}
