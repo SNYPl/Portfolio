@@ -13,10 +13,38 @@ margin-top:0;
 }
 
 .author {
-  width:260px;
+  width:30%;
   display:flex;
   padding:3% 0 0 5%;
   flex-direction: column;
 }
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 10% 0 10% 20%;
+}
+
+
+.main-toggle  li {
+ padding-bottom:25px;
+  font-size:18px;
+}
+
+.main-toggle li a {
+  letter-spacing: 3px;
+  &:hover {
+    border-bottom:1px solid red;
+    color: #ff228f;
+  }
+  &:active {
+    color: #ff228f;
+  }
+}
+
+
+
+
 
 
