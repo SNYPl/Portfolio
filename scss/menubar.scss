@@ -2,8 +2,8 @@
   height:22px;
   width:50px;
   position:absolute;
-  top:10%;
-  right:5%;
+  top:6%;
+  right:3%;
   cursor: pointer;
 }
 
@@ -43,47 +43,95 @@ transform:rotate(-45deg) translate(4px, -7px);
 }
 
 .slidebackground {
-  //display: flex;
-  ////flex-flow: column wrap;
-  //align-items: center;
-  //justify-content: center;
-  //overflow: hidden;
   background-color: rgba(12, 11, 9, 0.7);
   float: right;
-  height: 100vh;
+  height: 40vh;
   opacity:0.7;
   animation-name: slide;
-  animation-duration: 1.7s;
-  width:45%;
+  animation-duration: 1.2s;
+  width:30%;
   animation-timing-function:ease;
-  z-index: 1;
   border-left:1px solid blue;
+  padding-right:5%;
+position:relative;
 }
-
 
 .slidebackground-close {
   background-color: rgba(12, 11, 9, 0.7);
   float: right;
-  height: 100vh;
+  height: 40vh;
   opacity:0.7;
   animation-name:slideInLeft;
-  animation-duration: 1.7s;
+  animation-duration: 1.2s;
   animation-timing-function:ease;
-  z-index: 1;
 }
+
+
+.slidebackground-up {
+  background-color: rgba(12, 11, 9, 0.7);
+  position:absolute;
+  right:0;
+  bottom:0;
+  height:60vh;
+  opacity:0.7;
+  animation-name: slide-up;
+  animation-duration: 1.2s;
+  width:30%;
+  animation-timing-function:ease;
+  padding-right:5%;
+  border-left:1px solid blue;
+}
+
+.slidebackgroundup-close {
+  background-color: rgba(12, 11, 9, 0.7);
+  position:absolute;
+  right:0;
+  bottom:0;
+  height:60vh;
+  opacity:0.7;
+  animation-name: slide-down;
+  animation-duration: 1.2s;
+  animation-timing-function:ease;
+}
+
+
+
+@keyframes slide-down {
+  0% {
+    width:30%;
+    height:60vh;
+  }
+  100% {
+    width: 0;
+    height:0;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    width:0;
+    height:0;
+  }
+  100% {
+    width: 30%;
+    height:60vh;
+  }
+}
+
 
 @keyframes slide {
   0% {
-    width:5%;
+    width:0;
   }
   100% {
-    width: 45%;
+    width: 30%;
   }
 }
 
+
 @keyframes slideInLeft {
   0% {
-    width: 45%;
+    width: 30%;
   }
 
   100% {
