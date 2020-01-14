@@ -5,7 +5,7 @@ let closebtn2 = document.getElementById('btn2');
 let closebtn3 = document.getElementById('btn3');
 let navslide = document.getElementById('nav-background');
 let scslide = document.getElementById("secondSlide");
-
+let link = document.querySelector("#slidecontent");
 
 
 let reverse = function () {
@@ -15,11 +15,10 @@ let reverse = function () {
     }else {
         navslide.classList.toggle('slidebackground-close');
         scslide.classList.toggle('slidebackgroundup-close');
+
     }
 
 };
-
-
 
 wrap.addEventListener('click', function() {
     toggle.classList.toggle('hidden');
@@ -28,9 +27,8 @@ wrap.addEventListener('click', function() {
     closebtn3.classList.toggle('bt3');
     navslide.classList.toggle('slidebackground');
     scslide.classList.toggle('slidebackground-up');
-
-
-
+    link.classList.toggle('disabl');
 reverse();
-
 });
+
+
