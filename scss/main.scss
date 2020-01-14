@@ -1,5 +1,34 @@
 body {
-  background: url("../img/background.jpg") no-repeat;
+  background: #ffffff url("../img/background.jpg") no-repeat fixed;
   background-size:cover;
-  background-attachment: fixed
+  height:100%;
+  margin:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+overflow:hidden;
+}
+
+main {
+  overflow:hidden;
+  height:100%;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+li {
+  list-style: none;
+  padding-bottom:10px;
+
+}
+
+.disabl {
+  display:none;
 }
