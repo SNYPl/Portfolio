@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -11,7 +13,7 @@
 </head>
 <body>
 
-
+<header>
 <div class="" id="nav-background" >
 <div id="wrapp">
     <div  class="wrapper" id="btn1"></div>
@@ -21,22 +23,45 @@
     <div  class="hidden"  id="toggle" >
         <nav class="main-nav">
             <ul class="main-toggle ">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li class=" nav-item current"><a  href="index.html">HOME</a></li>
+                <li class=" nav-item"><a href="#">ABOUT</a></li>
+                <li class=" nav-item"><a href="#">PROJECTS</a></li>
+                <li class=" nav-item"><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </div>
-
-
-
 </div>
-<div id="secondSlide"></div>
+    <div id="secondSlide">
+        <div id="slidecontent" class="cont disabl">
+        <h2>Davit Metreveli</h2>
+        <img src="img/author.jpg" class="authimg">
 
+        <div class="phone-info">
+            <a href="#"><div class="div1"><img src="img/phone.svg"><span>+995 555 52 82 26</span></div></a>
+        </div>
+
+        <div class="fb-info">
+            <a href="#"><div class="div1"><img src="img/facebook.svg"><span>DATA METREVELI</span></div></a>
+        </div>
+
+        <div class="git-info">
+            <a href="#"><div class="div1"><img src="img/github.svg"><span>SNYPI</span></div></a>
+        </div>
+
+            <div class="mail-info">
+                <a href="#"><div class="div1"><img src="img/email.svg"><span>snypisia@gmail.com</span></div></a>
+           </div>
+
+    </div>
+    </div>
+
+</header>
+
+
+<main>
 
 <div class="author">
-    <h1> Davit Metreveli</h1>
+    <h1> Davit Metreveli </h1>
     <h3>Junior Front-End Developer</h3>
 </div>
 
@@ -58,7 +83,7 @@
 <div class="dott15"></div>
 <div class="dott16"></div>
 <div class="dott17"></div>
-
+</main>
 <script src="main.js"></script>
 </body>
 </html>
