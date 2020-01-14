@@ -4,18 +4,19 @@ h1 {
   margin-right:0;
   display:block;
   color:white;
-margin-bottom:5px;
+  margin-bottom:5px;
 }
 
 h3 {
-color:white;
-margin-top:0;
+  color:white;
+  margin-top:0;
+  width:230px;
 }
 
 .author {
   width:30%;
   display:flex;
-  padding:3% 0 0 5%;
+  padding:2% 0 0 4%;
   flex-direction: column;
 }
 
@@ -23,9 +24,8 @@ margin-top:0;
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding: 10% 0 10% 20%;
+  padding: 10% 0 0 20%;
 }
-
 
 .main-toggle  li {
  padding-bottom:25px;
@@ -37,14 +37,75 @@ margin-top:0;
   &:hover {
     border-bottom:1px solid red;
     color: #ff228f;
-  }
-  &:active {
-    color: #ff228f;
+    transition:all 0.5s ease-out;
   }
 }
 
+.nav-item {
+  &.current > a {
+    color: rgb(255, 42, 49);
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+.cont {
+  overflow: hidden;
+}
+.cont h2 {
+  display:block;
+  margin:0 auto;
+  text-align: center;
+  padding:10px 0;
+  color:white;
+}
+.cont .authimg {
+  width:40%;
+  height:40%;
+  border-radius:150px;
+  align-content: center;
+  display:block;
+  margin:0 auto;
+  margin-bottom:4px;
+  &:hover {
+    width:85%;
+    height:auto;
+    border-radius:200px;
+  }
+}
+
+.phone-info,
+.fb-info,
+.git-info,
+.mail-info {
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 
 
+  & img {
+    width:35px;
+    height:35px;
+    background-color: rgba(246, 187, 187, 0.81);
+    vertical-align:middle;
+    margin:5px 20px 5px 10px;
+border-radius:10px;
+  }
 
+  & .div1 {
+    width:80px;
+    overflow: hidden;
+    height:45px;
+    &:hover {
+    width:210px;
+    transition: width 0.7s linear;
+      background-color:#40404087;
+  }
 
+  }
+& span {
+  height:18px;
 
+}
+}
