@@ -162,7 +162,7 @@
 
 .dott1 {
   position:absolute;
-  bottom:16.6%;
+  bottom:16.3%;
   left:14.9%;
   width:4px;
   height:4px;
@@ -173,6 +173,7 @@
   animation-duration: 6s;
   animation-timing-function: ease-out;
 }
+
 
 @keyframes colorchange {
   0% {
@@ -196,6 +197,60 @@
     opacity:0;
   }
 }
+
+//
+//.border {
+//  background-color:red;
+//  margin:0;
+//  height:0.5px;
+//  border: 0 solid red;
+//  //animation-name:colorhr;
+//  //animation-iteration-count: infinite;
+//  //animation-duration: 18s;
+//  //animation-timing-function: linear;
+//}
+
+@keyframes colorhr {
+  0% {
+    background-color:red;
+  }
+  10% {
+    background-color: #801359;
+  }
+  20% {
+    background-color: #da1383;
+  }
+  30% {
+    background-color: #cd8700;
+  }
+  40% {
+    background-color:green;
+  }
+  50% {
+    background-color: #e06706;
+  }
+  60% {
+    background-color: #e970db;
+  }
+  70% {
+    background-color: #2bffce;
+  }
+  80% {
+    background-color: #ff1374;
+
+  }
+  90% {
+    background-color: #af0ed7;
+
+  }
+  100% {
+    background-color: rgb(255, 20, 0);
+
+  }
+}
+
+
+
 
 
 .dott3 {
@@ -303,10 +358,6 @@
   }
 
 }
-
-
-
-
 
 .dott8 {
   position:absolute;
