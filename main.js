@@ -6,6 +6,8 @@ let closebtn3 = document.getElementById('btn3');
 let navslide = document.getElementById('nav-background');
 let scslide = document.getElementById("secondSlide");
 let link = document.querySelector("#slidecontent");
+let contact = document.getElementById('contactpg');
+let contactopen = document.getElementById('slidecontentopen');
 
 
 let reverse = function () {
@@ -20,6 +22,7 @@ let reverse = function () {
 
 };
 
+
 wrap.addEventListener('click', function() {
     toggle.classList.toggle('hidden');
     closebtn1.classList.toggle('bt1');
@@ -30,5 +33,14 @@ wrap.addEventListener('click', function() {
     link.classList.toggle('disabl');
 reverse();
 });
+
+
+
+contact.addEventListener("click", function(event) {
+    contactopen.classList.toggle('visib');
+    contact.classList.toggle('colorchange');
+    event.preventDefault();
+});
+
 
 
