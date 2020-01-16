@@ -34,7 +34,6 @@ transform:rotate(-45deg) translate(4px, -7px);
 
 .slidebackground {
   background-color: rgba(12, 11, 9, 0.7);
-  //float: right;
   position:absolute;
   right:0;
   top:0;
@@ -45,11 +44,11 @@ transform:rotate(-45deg) translate(4px, -7px);
   animation-timing-function:ease;
   border-left:1px solid blue;
   overflow: hidden;
+  z-index: 4;
 }
 
 .slidebackground-close {
   background-color: rgba(12, 11, 9, 0.7);
-  //float: right;
   position:absolute;
   right:0;
   top:0;
@@ -58,7 +57,7 @@ transform:rotate(-45deg) translate(4px, -7px);
   animation-name:slideInLeft;
   animation-duration: 1.2s;
   animation-timing-function:ease;
-
+  z-index: 4;
 }
 
 
@@ -75,6 +74,7 @@ transform:rotate(-45deg) translate(4px, -7px);
   animation-timing-function:ease;
   border-left:1px solid blue;
   overflow: hidden;
+  z-index: 4;
 }
 
 .slidebackgroundup-close {
@@ -87,7 +87,7 @@ transform:rotate(-45deg) translate(4px, -7px);
   animation-name: slide-down;
   animation-duration: 1.2s;
   animation-timing-function:ease;
-
+  z-index: 4;
 }
 
 
