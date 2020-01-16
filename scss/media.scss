@@ -23,3 +23,8 @@
     @content;
   }
 }
+@mixin mediaH625 {
+  @media screen and (max-height: 625px) {
+@content;
+  }
+}
