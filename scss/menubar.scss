@@ -77,7 +77,7 @@ transform:rotate(-45deg) translate(4px, -7px);
   animation-timing-function:ease;
   border-left:1px solid blue;
   overflow: hidden;
-  z-index: 4;
+  z-index: 3;
 }
 
 .slidebackgroundup-close {
@@ -90,7 +90,7 @@ transform:rotate(-45deg) translate(4px, -7px);
   animation-name: slide-down;
   animation-duration: 1.2s;
   animation-timing-function:ease;
-  z-index: 4;
+  z-index: 3;
 }
 
 
