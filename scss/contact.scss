@@ -5,7 +5,7 @@
   display:block;
   margin:0 auto;
   text-align: center;
-  padding:10px 0;
+  padding:15px 0;
   color:white;
   transition-delay: 0.4s;
 }
@@ -18,8 +18,9 @@
   margin:0 auto;
   margin-bottom:4px;
   transition-delay: 0.6s;
+
   &:hover {
-    width:88%;
+    transform:scale(2.2) translateY(30px);
     height:auto;
     border-radius:220px;
     transition: all 1s ease-out;
@@ -28,18 +29,18 @@
 }
 
 .phone-info a {
-  transition-delay: 1s;
+  transition-delay: 0.6s;
 }
 .fb-info a {
-  transition-delay: 1.2s;
+  transition-delay: 0.8s;
 
 }
 .git-info a {
-  transition-delay: 1.4s;
+  transition-delay: 1s;
 
 }
 .mail-info a {
-  transition-delay: 1.6s;
+  transition-delay: 1.2s;
 
 }
 
@@ -59,7 +60,7 @@
     height:35px;
     background-color: rgba(246, 187, 187, 0.81);
     vertical-align:middle;
-    margin:5px 20px 5px 10px;
+    margin:5px 20px 5px 20px;
     border-radius:10px;
     transition-delay: 0.8s;
 
@@ -68,12 +69,14 @@
   & .div1 {
     width:80px;
     overflow: hidden;
-    height:45px;
+    height:40px;
+    margin-bottom:4px;
     &:hover {
-      width:210px;
+      width:230px;
       transition: width 0.5s linear;
       background-color:#40404087;
       border-radius: 20px;
+      transform:scale(1.2) ;
     }
 
   }
@@ -81,12 +84,36 @@
     height:18px;
 
   }
-
 }
 
 .opencontent {
   visibility: hidden;
   transition: visibility 1.5s, opacity 2s linear;
   opacity: 0;
+}
 
+
+
+@include media450 {
+  .cont h2 {
+    padding:10px 0;
+  }
+
+  .cont .authimg {
+    margin-bottom: 4px;
+
+  }
+
+  .phone-info,
+  .fb-info,
+  .git-info,
+  .mail-info {
+
+    img {
+
+      margin: 1px 20px 2px 25px;
+      border-radius: 10px;
+
+    }
+  }
 }
