@@ -35,8 +35,9 @@ li {
   width: 50px;
   position: fixed;
   top: 35px;
-  right: 25px;
-  cursor: pointer; }
+  right: 30px;
+  cursor: pointer;
+  padding-left: 10px; }
 
 .wrapper {
   width: 50px;
@@ -183,6 +184,124 @@ li {
   100% {
     width: 0; } }
 
+@media screen and (max-width: 950px) {
+  #wrapp {
+    top: 30px;
+    right: 15px; }
+  .slidebackground-up {
+    opacity: 0.9; } }
+
+@media screen and (max-width: 650px) {
+  .slidebackground {
+    width: 45%; }
+  .slidebackground-up {
+    width: 45%; }
+  @-webkit-keyframes slide-down {
+    0% {
+      width: 45%;
+      height: 60vh; }
+    100% {
+      width: 0;
+      height: 0; } }
+  @keyframes slide-down {
+    0% {
+      width: 45%;
+      height: 60vh; }
+    100% {
+      width: 0;
+      height: 0; } }
+  @-webkit-keyframes slide-up {
+    0% {
+      width: 0;
+      height: 0; }
+    100% {
+      width: 45%;
+      height: 60vh; } }
+  @keyframes slide-up {
+    0% {
+      width: 0;
+      height: 0; }
+    100% {
+      width: 45%;
+      height: 60vh; } }
+  @-webkit-keyframes slide {
+    0% {
+      width: 0; }
+    100% {
+      width: 45%; } }
+  @keyframes slide {
+    0% {
+      width: 0; }
+    100% {
+      width: 45%; } }
+  @-webkit-keyframes slideInLeft {
+    0% {
+      width: 45%; }
+    100% {
+      width: 0; } }
+  @keyframes slideInLeft {
+    0% {
+      width: 45%; }
+    100% {
+      width: 0; } } }
+
+@media screen and (max-width: 450px) {
+  .slidebackground {
+    width: 100%; }
+  .slidebackground-up {
+    width: 100%; }
+  @-webkit-keyframes slide-down {
+    0% {
+      width: 100%;
+      height: 60vh; }
+    100% {
+      width: 0;
+      height: 0; } }
+  @keyframes slide-down {
+    0% {
+      width: 100%;
+      height: 60vh; }
+    100% {
+      width: 0;
+      height: 0; } }
+  @-webkit-keyframes slide-up {
+    0% {
+      width: 0;
+      height: 0; }
+    100% {
+      width: 100%;
+      height: 60vh; } }
+  @keyframes slide-up {
+    0% {
+      width: 0;
+      height: 0; }
+    100% {
+      width: 100%;
+      height: 60vh; } }
+  @-webkit-keyframes slide {
+    0% {
+      width: 0; }
+    100% {
+      width: 100%; } }
+  @keyframes slide {
+    0% {
+      width: 0; }
+    100% {
+      width: 100%; } }
+  @-webkit-keyframes slideInLeft {
+    0% {
+      width: 100%; }
+    100% {
+      width: 0; } }
+  @keyframes slideInLeft {
+    0% {
+      width: 100%; }
+    100% {
+      width: 0; } }
+  #wrapp {
+    top: 25px;
+    right: 30px; } }
+
 h1 {
   width: 220px;
   border-bottom: 1px solid red;
@@ -215,8 +334,12 @@ h3 {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  text-align: center;
-  padding: 10% 0 0 20%; }
+  text-align: center; }
+
+.main-toggle {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 18%; }
 
 .main-toggle li {
   padding-bottom: 25px;
@@ -237,6 +360,27 @@ h3 {
 
 .colorchange {
   color: #ff118f; }
+
+@media screen and (max-width: 450px) {
+  .main-toggle {
+    margin: 30% auto;
+    text-align: center; }
+  .author {
+    width: 20%; }
+  h1 {
+    width: 140px;
+    font-size: 20px; }
+  h3 {
+    font-size: 15px; }
+  .main-toggle li {
+    padding-bottom: 18px;
+    font-size: 15px; }
+  .main-toggle li a {
+    letter-spacing: 3px; } }
+
+@media screen and (max-width: 210px) {
+  .author {
+    display: none; } }
 
 .dott7 {
   width: 1px;
@@ -831,7 +975,7 @@ h3 {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
   color: white;
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s; }
@@ -848,27 +992,28 @@ h3 {
   -webkit-transition-delay: 0.6s;
   transition-delay: 0.6s; }
   .cont .authimg:hover {
-    width: 88%;
+    -webkit-transform: scale(2.2) translateY(30px);
+    transform: scale(2.2) translateY(30px);
     height: auto;
     border-radius: 220px;
     -webkit-transition: all 1s ease-out;
     transition: all 1s ease-out; }
 
 .phone-info a {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s; }
+
+.fb-info a {
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s; }
+
+.git-info a {
   -webkit-transition-delay: 1s;
   transition-delay: 1s; }
 
-.fb-info a {
+.mail-info a {
   -webkit-transition-delay: 1.2s;
   transition-delay: 1.2s; }
-
-.git-info a {
-  -webkit-transition-delay: 1.4s;
-  transition-delay: 1.4s; }
-
-.mail-info a {
-  -webkit-transition-delay: 1.6s;
-  transition-delay: 1.6s; }
 
 .phone-info,
 .fb-info,
@@ -891,7 +1036,7 @@ h3 {
     height: 35px;
     background-color: rgba(246, 187, 187, 0.81);
     vertical-align: middle;
-    margin: 5px 20px 5px 10px;
+    margin: 5px 20px 5px 20px;
     border-radius: 10px;
     -webkit-transition-delay: 0.8s;
     transition-delay: 0.8s; }
@@ -901,16 +1046,19 @@ h3 {
   .mail-info .div1 {
     width: 80px;
     overflow: hidden;
-    height: 45px; }
+    height: 40px;
+    margin-bottom: 4px; }
     .phone-info .div1:hover,
     .fb-info .div1:hover,
     .git-info .div1:hover,
     .mail-info .div1:hover {
-      width: 210px;
+      width: 230px;
       -webkit-transition: width 0.5s linear;
       transition: width 0.5s linear;
       background-color: #40404087;
-      border-radius: 20px; }
+      border-radius: 20px;
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2); }
   .phone-info span,
   .fb-info span,
   .git-info span,
@@ -922,6 +1070,18 @@ h3 {
   -webkit-transition: visibility 1.5s, opacity 2s linear;
   transition: visibility 1.5s, opacity 2s linear;
   opacity: 0; }
+
+@media screen and (max-width: 450px) {
+  .cont h2 {
+    padding: 10px 0; }
+  .cont .authimg {
+    margin-bottom: 4px; }
+  .phone-info img,
+  .fb-info img,
+  .git-info img,
+  .mail-info img {
+    margin: 1px 20px 2px 25px;
+    border-radius: 10px; } }
 
 .projects {
   padding: 5vh 15vh 2vh 4vh; }
