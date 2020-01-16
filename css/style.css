@@ -111,7 +111,7 @@ li {
   animation-timing-function: ease;
   border-left: 1px solid blue;
   overflow: hidden;
-  z-index: 4; }
+  z-index: 3; }
 
 .slidebackgroundup-close {
   background-color: rgba(12, 11, 9, 0.7);
@@ -126,7 +126,7 @@ li {
   animation-duration: 1.2s;
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;
-  z-index: 4; }
+  z-index: 3; }
 
 @-webkit-keyframes slide-down {
   0% {
