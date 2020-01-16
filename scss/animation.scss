@@ -198,17 +198,6 @@
   }
 }
 
-//
-//.border {
-//  background-color:red;
-//  margin:0;
-//  height:0.5px;
-//  border: 0 solid red;
-//  //animation-name:colorhr;
-//  //animation-iteration-count: infinite;
-//  //animation-duration: 18s;
-//  //animation-timing-function: linear;
-//}
 
 @keyframes colorhr {
   0% {
@@ -413,7 +402,8 @@
 
 .dott2 {
   position:absolute;
-  left:30%;
+  left:25%;
+  top:15%;
   width:3px;
   height:3px;
   background-color:white;
