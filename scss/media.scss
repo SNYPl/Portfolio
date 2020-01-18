@@ -1,3 +1,10 @@
+@mixin media951 {
+  @media screen and (min-width: 951px) {
+    @content;
+  }
+}
+
+
 @mixin media950 {
   @media screen and (max-width: 950px) {
     @content;
@@ -19,10 +26,18 @@
 }
 
 @mixin media210 {
-  @media screen and (max-width: 210px) {
+  @media screen and (max-width: 220px) {
     @content;
   }
 }
+
+@mixin media280 {
+  @media screen and (max-width: 280px) {
+    @content;
+  }
+}
+
+
 @mixin mediaH625 {
   @media screen and (max-height: 625px) {
 @content;
