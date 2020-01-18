@@ -11,7 +11,7 @@
 overflow: auto;
   background-color: #272727c9;
   display:flex;
-  justify-content: flex-start ;
+  justify-content: center ;
   align-items: center;
   flex-wrap:wrap;
 
@@ -74,4 +74,39 @@ overflow: auto;
     }
   }
 
+@include media951 {
 
+  .my-project {
+    width:65vh;
+    height:75vh;
+  }
+
+}
+
+
+
+
+@include media650 {
+
+.my-project {
+  width:35vh;
+  height:35vh;
+}
+}
+
+@include media280 {
+
+  .my-project {
+    width:20vh;
+    height:30vh;
+  }
+}
+
+@include media210 {
+
+  .my-project {
+    width:15vh;
+    height:25vh;
+  }
+
+}
