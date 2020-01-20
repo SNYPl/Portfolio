@@ -8,7 +8,7 @@
 
 .project-container {
   height:92vh;
-overflow: auto;
+overflow: hidden;
   background-color: #272727c9;
   display:flex;
   justify-content: center ;
@@ -36,6 +36,7 @@ overflow: auto;
 
 .block {
   visibility: hidden;
+
 }
 .project {
   background:url("../img/model1.png") no-repeat ;
@@ -65,11 +66,13 @@ overflow: auto;
     .block {
       position: absolute;
       top: 35%;
-      right:35%;
+      right:25%;
       visibility: visible;
       color: #fff;
       overflow: hidden;
       font-weight: bold;
+      font-size: 20px;
+      text-align: center;
     }
     }
   }
@@ -81,8 +84,23 @@ overflow: auto;
     height:75vh;
   }
 
-}
+  .project,
+  .project1 {
 
+    :hover {
+
+
+      .block {
+        top: 30vh;
+        right:20vh;
+        font-size: 35px;
+        text-align: center;
+      }
+    }
+  }
+
+
+}
 
 
 
@@ -92,13 +110,68 @@ overflow: auto;
   width:35vh;
   height:35vh;
 }
+
+  .project,
+  .project1 {
+
+    :hover {
+
+
+      .block {
+        top: 35%;
+        right:20%;
+        font-size: 18px;
+      }
+    }
+  }
+
 }
+
+@include media350 {
+
+  .my-project {
+    width:30vh;
+    height:30vh;
+  }
+
+  .project,
+  .project1 {
+
+    :hover {
+
+
+      .block {
+        top: 35%;
+        right:20%;
+        font-size: 18px;
+      }
+    }
+  }
+
+}
+
+
+
 
 @include media280 {
 
   .my-project {
     width:20vh;
-    height:30vh;
+    height:28vh;
+  }
+
+
+  .project,
+  .project1 {
+
+    :hover {
+
+
+      .block {
+
+        font-size: 15px;
+      }
+    }
   }
 }
 
