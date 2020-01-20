@@ -371,8 +371,8 @@ h3 {
   .author {
     width: 22%; }
   h1 {
-    width: 150px;
-    font-size: 17px; }
+    width: 155px;
+    font-size: 16px; }
   h3 {
     font-size: 13px; }
   .main-toggle li {
@@ -1135,7 +1135,7 @@ h3 {
 
 .project-container {
   height: 92vh;
-  overflow: auto;
+  overflow: hidden;
   background-color: #272727c9;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1192,26 +1192,52 @@ h3 {
   .project1 :hover .block {
     position: absolute;
     top: 35%;
-    right: 35%;
+    right: 25%;
     visibility: visible;
     color: #fff;
     overflow: hidden;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; }
 
 @media screen and (min-width: 951px) {
   .my-project {
     width: 65vh;
-    height: 75vh; } }
+    height: 75vh; }
+  .project :hover .block,
+  .project1 :hover .block {
+    top: 30vh;
+    right: 20vh;
+    font-size: 35px;
+    text-align: center; } }
 
 @media screen and (max-width: 650px) {
   .my-project {
     width: 35vh;
-    height: 35vh; } }
+    height: 35vh; }
+  .project :hover .block,
+  .project1 :hover .block {
+    top: 35%;
+    right: 20%;
+    font-size: 18px; } }
+
+@media screen and (max-width: 350px) {
+  .my-project {
+    width: 30vh;
+    height: 30vh; }
+  .project :hover .block,
+  .project1 :hover .block {
+    top: 35%;
+    right: 20%;
+    font-size: 18px; } }
 
 @media screen and (max-width: 280px) {
   .my-project {
     width: 20vh;
-    height: 30vh; } }
+    height: 28vh; }
+  .project :hover .block,
+  .project1 :hover .block {
+    font-size: 15px; } }
 
 @media screen and (max-width: 220px) {
   .my-project {
