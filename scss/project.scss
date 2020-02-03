@@ -1,0 +1,76 @@
+    .projects {
+        padding: 5vh 10vh 2vh 4vh;
+    }
+    
+    .project-container {
+        height: 92vh;
+        overflow: hidden;
+        background-color: #272727c9;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-rows: 320px 320px;
+        grid-gap: 15px 20px;
+        box-sizing: border-box;
+    }
+    
+    .block {
+        visibility: hidden;
+    }
+    
+    .Project-blocks {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 8px;
+        &:hover {
+            transform: scale(1.1, 1.2) translate(8px, 25px);
+            transition: all 0.5s ease-in-out;
+            .block {
+                position: absolute;
+                top: 10%;
+                left: 15px;
+                right: 15px;
+                visibility: visible;
+                color: #ffffff;
+                overflow: hidden;
+                font-weight: bold;
+                font-size: 20px;
+                display: inline-block;
+                text-align: center;
+                padding-top: 40%;
+                width: 85.5%;
+                height: 80%;
+                z-index: 1;
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.60);
+                }
+            }
+        }
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+    @include media530 {
+        .projects {
+            padding: 0;
+            padding-top: 10vh;
+            grid-gap: 10px 15px;
+        }
+        .project-container {
+            height: 100vh;
+            width: auto;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            grid-template-rows: 250px 250px;
+        }
+    }
+    
+    @include media365 {
+        .project-container {
+            grid-gap: 5px;
+            grid-template-rows: repeat(3, 190px);
+        }
+    }
