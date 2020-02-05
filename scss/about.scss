@@ -1,122 +1,132 @@
-            .font {
-                font-family: 'Jim Nightshade', cursive;
-            }
-            
-            .about-container {
-                height: 100vh;
-                background-color: #000613;
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr 1fr;
-                overflow: auto;
-            }
-            
-            .aboutpage {
-                color: #fff;
-                text-align: center;
-                font-size: 35px;
-                width: 100%;
-                background-color: #303644;
-                border-radius: 10px;
-                padding-top: 3px;
-                font-family: 'Jim Nightshade', cursive;
-            }
-            
-            .about-page {
-                background-color: rgb(16, 36, 44);
-                font-family: 'Roboto', sans-serif;
-                color: #fff;
-            }
-            
-            .aboutme_section {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                img {
-                    width: 150px;
-                    height: 150px;
-                    border-radius: 80px;
-                    margin-top: 15px;
-                }
-                p {
-                    font-size: 18px;
-                    text-align: left;
-                    padding: 0 15px;
-                    margin: 8px auto;
-                    margin-top: 12px;
-                }
-            }
-            
-            .about_skills {
-                background-color: #333;
-                display: flex;
-                flex-direction: column;
-                border-radius: 20px;
-                padding-bottom: 15px;
-                & .skills {
-                    font-size: 40px;
-                    background-color: #303644;
-                    text-align: center;
-                    color: #fff;
-                    border-radius: 10px;
-                }
-            }
-            
-            .bar {
-                background: #353b48;
-                display: block;
-                width: 80%;
-                height: 6px;
-                border-radius: 5px;
-                box-shadow: 0 0 10px #2187e7b3;
-                & span {
-                    height: 6px;
-                    float: left;
-                    background: #2187e7;
-                    border-radius: 5px;
-                }
-                & .annimat {
-                    animation-name: WidthGrow;
-                    animation-duration: 4s;
-                    animation-timing-function: ease;
-                }
-                & .html1 {
-                    width: 88%;
-                }
-                & .css {
-                    width: 88%;
-                }
-                & .sass {
-                    width: 84%;
-                }
-                & .js {
-                    width: 30%;
-                }
-                & .bootstrap {
-                    width: 60%;
-                }
-            }
-            
-            .skill-item {
-                width: 100%;
-                padding: 10px 15px;
-                p {
-                    display: inline-block;
-                    padding: 0;
-                    margin: 0;
-                    width: 100%;
-                    font-size: 25px;
-                    margin-bottom: 7px;
-                    color: #fff;
-                }
-            }
-            
-            .aboutwrapp {
-                top: 10px !important;
-            }
-            
-            @keyframes WidthGrow {
-                0% {
-                    width: 0%;
-                }
-            }
+                        .font {
+                            font-family: 'Jim Nightshade', cursive;
+                        }
+                        
+                        .about-container {
+                            height: 100vh;
+                            background-color: #000613;
+                            display: grid;
+                            grid-template-columns: 1fr;
+                            grid-template-rows: 1fr 1fr;
+                            overflow: auto;
+                        }
+                        
+                        .aboutpage {
+                            color: #fff;
+                            text-align: center;
+                            font-size: 35px;
+                            width: 100%;
+                            background-color: #303644;
+                            border-radius: 10px;
+                            padding-top: 3px;
+                            font-family: 'Jim Nightshade', cursive;
+                        }
+                        
+                        .about-page {
+                            background-color: rgb(16, 36, 44);
+                            font-family: 'Roboto', sans-serif;
+                            color: #fff;
+                        }
+                        
+                        .aboutme_section {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            img {
+                                width: 150px;
+                                height: 150px;
+                                border-radius: 80px;
+                                margin-top: 15px;
+                            }
+                            p {
+                                font-size: 18px;
+                                text-align: left;
+                                padding: 0 15px;
+                                margin: 8px auto;
+                                margin-top: 12px;
+                            }
+                        }
+                        
+                        .about_skills {
+                            background-color: #333;
+                            display: flex;
+                            flex-direction: column;
+                            border-radius: 20px;
+                            padding-bottom: 15px;
+                            & .skills {
+                                font-size: 40px;
+                                background-color: #303644;
+                                text-align: center;
+                                color: #fff;
+                                border-radius: 10px;
+                            }
+                        }
+                        
+                        .bar {
+                            background: #353b48;
+                            display: block;
+                            width: 80%;
+                            height: 6px;
+                            border-radius: 5px;
+                            box-shadow: 0 0 10px #2187e7b3;
+                            & span {
+                                height: 6px;
+                                float: left;
+                                background: #2187e7;
+                                border-radius: 5px;
+                            }
+                            & .annimat {
+                                animation-name: WidthGrow;
+                                animation-duration: 4s;
+                                animation-timing-function: ease;
+                            }
+                            & .html1 {
+                                width: 88%;
+                            }
+                            & .css {
+                                width: 88%;
+                            }
+                            & .sass {
+                                width: 84%;
+                            }
+                            & .js {
+                                width: 30%;
+                            }
+                            & .bootstrap {
+                                width: 60%;
+                            }
+                        }
+                        
+                        .skill-item {
+                            width: 100%;
+                            padding: 10px 15px;
+                            p {
+                                display: inline-block;
+                                padding: 0;
+                                margin: 0;
+                                width: 100%;
+                                font-size: 25px;
+                                margin-bottom: 7px;
+                                color: #fff;
+                            }
+                        }
+                        
+                        .aboutwrapp {
+                            top: 10px !important;
+                        }
+                        
+                        @keyframes WidthGrow {
+                            0% {
+                                width: 0%;
+                            }
+                        }
+                        
+                        @include media450 {
+                            .skill-item {
+                                width: 100%;
+                                padding: 8px 15px;
+                            }
+                            .about_skills {
+                                padding-bottom: 35px;
+                            }
+                        }
