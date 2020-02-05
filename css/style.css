@@ -1164,7 +1164,8 @@ h3 {
   width: 100%;
   background-color: #303644;
   border-radius: 10px;
-  padding-top: 3px; }
+  padding-top: 3px;
+  font-family: 'Jim Nightshade', cursive; }
 
 .about-page {
   background-color: #10242c;
