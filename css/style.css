@@ -872,22 +872,6 @@ h3 {
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear; }
 
-@-webkit-keyframes nem-down1 {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
-  100% {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px); } }
-
-@keyframes nem-down1 {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
-  100% {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px); } }
-
 .dott2 {
   position: absolute;
   left: 25%;
@@ -922,24 +906,6 @@ h3 {
     transform: translateY(100px) translateX(100px);
     opacity: 0; } }
 
-@-webkit-keyframes nem {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); }
-  100% {
-    -webkit-transform: translateX(120px);
-    transform: translateX(120px);
-    opacity: 0; } }
-
-@keyframes nem {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); }
-  100% {
-    -webkit-transform: translateX(120px);
-    transform: translateX(120px);
-    opacity: 0; } }
-
 @-webkit-keyframes slide-left {
   0% {
     -webkit-transform: translateX(0);
@@ -959,24 +925,6 @@ h3 {
     -webkit-transform: translateX(-120px);
     transform: translateX(-120px);
     opacity: 0.8; } }
-
-@-webkit-keyframes nem-down {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 0.5; }
-  100% {
-    -webkit-transform: translateY(70px);
-    transform: translateY(70px); } }
-
-@keyframes nem-down {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 0.5; }
-  100% {
-    -webkit-transform: translateY(70px);
-    transform: translateY(70px); } }
 
 .cont {
   overflow: hidden; }
@@ -1197,3 +1145,121 @@ h3 {
   .project-container {
     grid-gap: 5px;
     grid-template-rows: repeat(3, 190px); } }
+
+.font {
+  font-family: 'Jim Nightshade', cursive; }
+
+.about-container {
+  height: 100vh;
+  background-color: #000613;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: auto; }
+
+.aboutpage {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  width: 100%;
+  background-color: #02a3f3;
+  border-radius: 10px;
+  padding-top: 3px; }
+
+.about-page {
+  background-color: #015c89;
+  font-family: 'Roboto', sans-serif;
+  color: #fff; }
+
+.aboutme_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .aboutme_section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-top: 15px; }
+  .aboutme_section p {
+    font-size: 17px;
+    text-align: center;
+    padding: 0 10px;
+    margin: 5px auto; }
+
+.about_skills {
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 20px; }
+  .about_skills .skills {
+    font-size: 40px;
+    background-color: #303644;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px; }
+
+.bar {
+  background: #353b48;
+  display: block;
+  width: 80%;
+  height: 6px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #2187e7b3;
+  box-shadow: 0 0 10px #2187e7b3; }
+  .bar span {
+    height: 6px;
+    float: left;
+    background: #2187e7;
+    border-radius: 5px; }
+  .bar .annimat {
+    -webkit-animation-name: WidthGrow;
+    animation-name: WidthGrow;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease; }
+  .bar .html1 {
+    width: 88%; }
+  .bar .css {
+    width: 88%; }
+  .bar .sass {
+    width: 84%; }
+  .bar .js {
+    width: 30%; }
+  .bar .bootstrap {
+    width: 60%; }
+
+.skill-item {
+  width: 100%;
+  padding: 15px; }
+  .skill-item p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 7px;
+    color: #fff; }
+
+.aboutwrapp {
+  top: 10px !important; }
+
+@-webkit-keyframes WidthGrow {
+  0% {
+    width: 0%; } }
+
+@keyframes WidthGrow {
+  0% {
+    width: 0%; } }
