@@ -1189,11 +1189,11 @@ h3 {
     border-radius: 80px;
     margin-top: 15px; }
   .aboutme_section p {
-    font-size: 17px;
-    text-align: center;
-    padding: 0 10px;
-    margin: 5px auto;
-    margin-top: 10px; }
+    font-size: 18px;
+    text-align: left;
+    padding: 0 15px;
+    margin: 8px auto;
+    margin-top: 12px; }
 
 .about_skills {
   background-color: #333;
