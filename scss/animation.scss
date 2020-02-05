@@ -1,464 +1,398 @@
 .dott7 {
-  width:1px;
-  height:18px;
-  background-color:white;
-  position:absolute;
-  top:31.9%;
-  right:30.1%;
-  animation-name:rotate90fast;
-  animation-iteration-count: infinite;
-  animation-duration: 4s;
-  animation-timing-function: linear;
+    width: 1px;
+    height: 18px;
+    background-color: white;
+    position: absolute;
+    top: 31.9%;
+    right: 30.1%;
+    animation-name: rotate90fast;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
 }
 
 .dott9 {
-  width:1px;
-  height:18px;
-  background-color:white;
-  position:absolute;
-  top:31.9%;
-  right:30.1%;
-  animation-name:rotate90fast;
-  animation-iteration-count: infinite;
-  animation-duration: 6s;
-  animation-timing-function: linear;
+    width: 1px;
+    height: 18px;
+    background-color: white;
+    position: absolute;
+    top: 31.9%;
+    right: 30.1%;
+    animation-name: rotate90fast;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: linear;
 }
 
 .dott10 {
-  width:2px;
-  height:2px;
-  background-color:white;
-  position:absolute;
-  top:32.8%;
-  right:30%;
-  animation-name:colorchange;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: ease-in;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 32.8%;
+    right: 30%;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
 }
 
 .dott11 {
-  width:3px;
-  height:3px;
-  background-color:white;
-  position:absolute;
-  top:55%;
-  left:70%;
-  animation-name:orbit1;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: ease-in;
-  animation-direction: reverse;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    animation-name: orbit1;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
 }
 
-
 .dott12 {
-  width:3px;
-  height:3px;
-  background-color:white;
-  position:absolute;
-  top:65%;
-  left:45%;
-  animation-name:orbit1;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: ease-in;
-  animation-direction: reverse;
-
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    animation-name: orbit1;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
 }
 
 @keyframes orbit1 {
-  2% {
-    opacity:0;
-  }
-
-  0% {
-    transform: rotate(0deg) translateX(-20px) rotate(0deg);
-    opacity:0.3;
-  }
-  50% {
-    opacity:0.5;
-  }
-  to   {
-    transform: rotate(360deg) translateX(-20px) rotate(-360deg);
-    opacity:1;
-  }
+    2% {
+        opacity: 0;
+    }
+    0% {
+        transform: rotate(0deg) translateX(-20px) rotate(0deg);
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        transform: rotate(360deg) translateX(-20px) rotate(-360deg);
+        opacity: 1;
+    }
 }
-
 
 @keyframes orbit {
-  2% {
-    opacity:0;
-  }
-
-  0% {
-    transform: rotate(0deg) translateX(20px) rotate(0deg);
-    opacity:0.3;
-  }
-  50% {
-    opacity:0.5;
-  }
-  to   {
-    transform: rotate(360deg) translateX(20px) rotate(-360deg);
-    opacity:1;
-  }
+    2% {
+        opacity: 0;
+    }
+    0% {
+        transform: rotate(0deg) translateX(20px) rotate(0deg);
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        transform: rotate(360deg) translateX(20px) rotate(-360deg);
+        opacity: 1;
+    }
 }
-
 
 .dott6 {
-  width:3px;
-  height:3px;
-  background-color:white;
-  position:absolute;
-  top:50%;
-  right:50%;
-  animation-name:orbit;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: ease-out;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    animation-name: orbit;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease-out;
 }
 
-
-
 .dott4 {
-  width:1px;
-  height:20px;
-  background-color:white;
-  position:absolute;
-  bottom:15%;
-  right:35%;
-  animation-name:rotate90;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: ease-out;
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 15%;
+    right: 35%;
+    animation-name: rotate90;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease-out;
 }
 
 .dott5 {
-  width:1px;
-  height:20px;
-  background-color:white;
-  position:absolute;
-  bottom:15%;
-  right:35%;
-  animation-name:rotate90;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: ease-out;
-  animation-direction: reverse;
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 15%;
+    right: 35%;
+    animation-name: rotate90;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
 }
 
 .dott {
-  width:3px;
-  height:3px;
-  background-color:white;
-  position:absolute;
-  top:15%;
-  left:33%;
-  animation-name:colorchange;
-  animation-iteration-count: infinite;
-  animation-duration: 6s;
-  animation-timing-function: ease-out;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
 }
 
 .dott1 {
-  position:absolute;
-  bottom:16.3%;
-  left:14.9%;
-  width:4px;
-  height:4px;
-  background-color:white;
-  margin:0;
-  animation-name:colorchange;
-  animation-iteration-count: infinite;
-  animation-duration: 6s;
-  animation-timing-function: ease-out;
+    position: absolute;
+    bottom: 16.3%;
+    left: 14.9%;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    margin: 0;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
 }
-
 
 @keyframes colorchange {
-  0% {
-
-    background-color:white;
-  }
-
-  30% {
-    background-color:green;
-  }
-
-  45% {
-    background-color:blue;
-  }
-  70% {
-    background-color:black;
-    opacity:0.7
-  }
-  100% {
-    background-color: rgba(26, 34, 128, 0.7);
-    opacity:0;
-  }
+    0% {
+        background-color: white;
+    }
+    30% {
+        background-color: green;
+    }
+    45% {
+        background-color: blue;
+    }
+    70% {
+        background-color: black;
+        opacity: 0.7
+    }
+    100% {
+        background-color: rgba(26, 34, 128, 0.7);
+        opacity: 0;
+    }
 }
-
 
 @keyframes colorhr {
-  0% {
-    background-color:red;
-  }
-  10% {
-    background-color: #801359;
-  }
-  20% {
-    background-color: #da1383;
-  }
-  30% {
-    background-color: #cd8700;
-  }
-  40% {
-    background-color:green;
-  }
-  50% {
-    background-color: #e06706;
-  }
-  60% {
-    background-color: #e970db;
-  }
-  70% {
-    background-color: #2bffce;
-  }
-  80% {
-    background-color: #ff1374;
-
-  }
-  90% {
-    background-color: #af0ed7;
-
-  }
-  100% {
-    background-color: rgb(255, 20, 0);
-
-  }
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: #801359;
+    }
+    20% {
+        background-color: #da1383;
+    }
+    30% {
+        background-color: #cd8700;
+    }
+    40% {
+        background-color: green;
+    }
+    50% {
+        background-color: #e06706;
+    }
+    60% {
+        background-color: #e970db;
+    }
+    70% {
+        background-color: #2bffce;
+    }
+    80% {
+        background-color: #ff1374;
+    }
+    90% {
+        background-color: #af0ed7;
+    }
+    100% {
+        background-color: rgb(255, 20, 0);
+    }
 }
-
-
-
-
 
 .dott3 {
-  position:absolute;
-  right:46%;
-  top:15%;
-  width:1px;
-  height:25px;
-  background-color:white;
-  animation-name:rotate90;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: linear;
+    position: absolute;
+    right: 46%;
+    top: 15%;
+    width: 1px;
+    height: 25px;
+    background-color: white;
+    animation-name: rotate90;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
 }
+
 .dott13 {
-  position:absolute;
-  right:46%;
-  top:15%;
-  width:1px;
-  height:25px;
-  background-color:white;
-  animation-name:rotate90;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: linear;
-  animation-direction: reverse;
+    position: absolute;
+    right: 46%;
+    top: 15%;
+    width: 1px;
+    height: 25px;
+    background-color: white;
+    animation-name: rotate90;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
 }
+
 .dott14 {
-  position:absolute;
-  right:45%;
-  top:17%;
-  width:3px;
-  height:3px;
-  background-color:white;
-  animation-name:orbit;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: linear;
+    position: absolute;
+    right: 45%;
+    top: 17%;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    animation-name: orbit;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
 }
 
 .dott16 {
-  position:absolute;
-  right:45%;
-  top:17%;
-  width:3px;
-  height:3px;
-  background-color:white;
-  animation-name:orbit;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: linear;
-
+    position: absolute;
+    right: 45%;
+    top: 17%;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    animation-name: orbit;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
 }
 
-
 @keyframes orbit {
-  2% {
-    opacity:1;
-  }
-
-  0% {
-    transform: rotate(0deg) translateX(25px) rotate(0deg);
-    opacity:0.6;
-  }
-  50% {
-    opacity:0.3;
-  }
-  to   {
-    transform: rotate(360deg) translateX(25px) rotate(-360deg);
-    opacity:0;
-  }
+    2% {
+        opacity: 1;
+    }
+    0% {
+        transform: rotate(0deg) translateX(25px) rotate(0deg);
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    to {
+        transform: rotate(360deg) translateX(25px) rotate(-360deg);
+        opacity: 0;
+    }
 }
 
 @keyframes rotate90 {
-  0% {
-    transform: rotate(0);
-  }
-  30% {
-    transform: rotate(90deg);
-  }
-  65% {
-    transform: rotate(180deg);
-    background-color: rgba(255, 34, 143, 0.7);
-
-  }
-  100% {
-    transform: rotate(380deg);
-
-  }
+    0% {
+        transform: rotate(0);
+    }
+    30% {
+        transform: rotate(90deg);
+    }
+    65% {
+        transform: rotate(180deg);
+        background-color: rgba(255, 34, 143, 0.7);
+    }
+    100% {
+        transform: rotate(380deg);
+    }
 }
 
 @keyframes rotate90fast {
-  0% {
-    transform: rotate(0);
-    opacity: 0;
-  }
-  65% {
-    background-color: rgba(237, 17, 255, 0.7);
-    opacity:0.7;
-  }
-  100% {
-    transform: rotate(380deg);
-    opacity:1;
-
-  }
-
+    0% {
+        transform: rotate(0);
+        opacity: 0;
+    }
+    65% {
+        background-color: rgba(237, 17, 255, 0.7);
+        opacity: 0.7;
+    }
+    100% {
+        transform: rotate(380deg);
+        opacity: 1;
+    }
 }
 
 .dott8 {
-  position:absolute;
-  left:15%;
-  bottom:15%;
-  width:1px;
-  height:25px;
-  background-color:white;
-  animation-name:rotate90;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: linear;
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+    width: 1px;
+    height: 25px;
+    background-color: white;
+    animation-name: rotate90;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
 }
+
 .dott15 {
-  position:absolute;
-  left:15%;
-  bottom:15%;
-  width:1px;
-  height:25px;
-  background-color:white;
-  animation-name:rotate90;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: linear;
-  animation-direction: reverse;
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+    width: 1px;
+    height: 25px;
+    background-color: white;
+    animation-name: rotate90;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
 }
+
 .dott17 {
-  position:absolute;
-  left:14%;
-  bottom:17%;
-  width:3px;
-  height:3px;
-  background-color:white;
-  animation-name:orbit;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-  animation-timing-function: linear;
-
-}
-
-@keyframes nem-down1{
-  0% {
-
-    transform: translateY(0);
-
-  }
-  100% {
-
-    transform: translateY(100px);
-
-  }
+    position: absolute;
+    left: 14%;
+    bottom: 17%;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    animation-name: orbit;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
 }
 
 .dott2 {
-  position:absolute;
-  left:25%;
-  top:15%;
-  width:3px;
-  height:3px;
-  background-color:white;
-  animation-name:slide-br;
-  animation-iteration-count: infinite;
-  animation-duration: 10s;
-  animation-timing-function: linear;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    animation-name: slide-br;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
 }
 
 @keyframes slide-br {
-  0% {
-
-    transform: translateY(30px) translateX(30px);
-  }
-  100% {
-
-    transform: translateY(100px) translateX(100px);
-    opacity:0;
-  }
-}
-
-@keyframes nem{
-  0% {
-
-    transform: translateX(0);
-  }
-  100% {
-
-    transform: translateX(120px);
-    opacity:0;
-  }
+    0% {
+        transform: translateY(30px) translateX(30px);
+    }
+    100% {
+        transform: translateY(100px) translateX(100px);
+        opacity: 0;
+    }
 }
 
 @keyframes slide-left {
-  0% {
-
-    transform: translateX(0);
-    opacity:0.2;
-  }
-  100% {
-
-    transform: translateX(-120px);
-    opacity:0.8;
-  }
-}
-
-@keyframes nem-down{
-  0% {
-
-    transform: translateY(0);
-    opacity:0.5;
-  }
-  100% {
-
-    transform: translateY(70px);
-
-  }
+    0% {
+        transform: translateX(0);
+        opacity: 0.2;
+    }
+    100% {
+        transform: translateX(-120px);
+        opacity: 0.8;
+    }
 }
