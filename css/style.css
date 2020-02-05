@@ -1204,7 +1204,8 @@ h3 {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-radius: 20px; }
+  border-radius: 20px;
+  padding-bottom: 15px; }
   .about_skills .skills {
     font-size: 40px;
     background-color: #303644;
@@ -1245,7 +1246,7 @@ h3 {
 
 .skill-item {
   width: 100%;
-  padding: 15px; }
+  padding: 10px 15px; }
   .skill-item p {
     display: inline-block;
     padding: 0;
