@@ -65,12 +65,16 @@
             width: auto;
             grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
             grid-template-rows: 250px 250px;
+            overflow: auto !important;
         }
     }
     
     @include media365 {
         .project-container {
             grid-gap: 5px;
-            grid-template-rows: repeat(3, 190px);
+            grid-template-rows: repeat(4, 270px);
+        }
+        .project4 {
+            margin-bottom: 50px;
         }
     }
