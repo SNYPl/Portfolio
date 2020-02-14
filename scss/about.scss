@@ -33,10 +33,10 @@
                             flex-direction: column;
                             align-items: center;
                             img {
-                                width: 150px;
-                                height: 150px;
-                                border-radius: 80px;
-                                margin-top: 15px;
+                                // width: 150px;
+                                // height: 150px;
+                                border-radius: 150px;
+                                margin: 15px 0;
                             }
                             p {
                                 font-size: 18px;
@@ -128,5 +128,16 @@
                             }
                             .about_skills {
                                 padding-bottom: 50px;
+                            }
+                        }
+                        
+                        @include media350 {
+                            .aboutme_section {
+                                img {
+                                    width: 100%;
+                                    border-radius: 170px;
+                                    margin-top: 15px;
+                                    padding: 0 16px;
+                                }
                             }
                         }
