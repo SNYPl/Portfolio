@@ -1187,10 +1187,8 @@ h3 {
   -ms-flex-align: center;
   align-items: center; }
   .aboutme_section img {
-    width: 150px;
-    height: 150px;
-    border-radius: 80px;
-    margin-top: 15px; }
+    border-radius: 150px;
+    margin: 15px 0; }
   .aboutme_section p {
     font-size: 18px;
     text-align: left;
@@ -1276,3 +1274,10 @@ h3 {
     padding: 6px 15px; }
   .about_skills {
     padding-bottom: 50px; } }
+
+@media screen and (max-width: 350px) {
+  .aboutme_section img {
+    width: 100%;
+    border-radius: 170px;
+    margin-top: 15px;
+    padding: 0 16px; } }
